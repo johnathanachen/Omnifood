@@ -1,10 +1,25 @@
-/*
-Orange color: #E67E22
-
-*/
 
 /* ---------------------------------- */
-/* BASIC SETUP */
+/* TABLE OF CONTENTS */
+/* ---------------------------------- */
+/*
+
+COLORS: ORANGE - #E67E22
+
+1. BASIC SET UP
+2. REUSABLE COMPONETS
+  - HEADINGS
+  - PARAGRAPHS
+  - ICONS
+  - BUTTONS
+3. HEADER
+4. FEATURES
+5. MEALS
+6. HOW IT WORKS
+
+*/
+/* ---------------------------------- */
+/* 1. BASIC SETUP */
 /* ---------------------------------- */
 
 * {
@@ -20,6 +35,15 @@ html {
   font-weight: 300;
   font-size: 20px;
   text-rendering: optimizeLegibility;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
 }
 
 /* ---------------------------------- */
@@ -237,4 +261,53 @@ header {
 .meal-photo img:hover {
   opacity: 1;
   transform: scale(1.03);
+}
+
+/* ---------------------------------- */
+/* HOW IT WORKS */
+/* ---------------------------------- */
+
+.section-steps {
+  background-color: #f4f4f4;
+}
+
+.steps-box:first-child {
+  text-align: right;
+}
+
+.steps-box:last-child {
+  margin-top: 70px;
+}
+
+.app-screen {
+  width: 40%;
+  padding-right: 6%;
+}
+
+.works-step {
+  margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+  margin-bottom: 80px;
+}
+
+.works-step div {
+  color: #E67E22;
+  border: 2px solid #E67E22;
+  display: inline-block;
+  border-radius: 50%;
+  height: 37px;
+  width: 37px;
+  text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+}
+
+.btn-app img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
 }

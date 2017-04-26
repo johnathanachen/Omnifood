@@ -2,13 +2,6 @@ HTML & CSS
 
 TODO:
 
-Fields to include:
-Name
-Email
-How did you find us?
-Newsletter
-Drop us a line
-
 Section 8: Footer
 Title: None
 

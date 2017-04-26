@@ -1,9 +1,6 @@
-HTML, CSS, JQuery
+HTML & CSS
 
 TODO:
-
-Section 7: Contact form
-Title: We're happy to hear from you
 
 Fields to include:
 Name
